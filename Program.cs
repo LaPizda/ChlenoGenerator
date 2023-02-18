@@ -4,7 +4,7 @@ namespace Testing
   {
     public static async Task Main()
     {
-
+      Console.OutputEncoding = System.Text.Encoding.UTF8;
       await Console.Out.WriteLineAsync(
 """ 
 ⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀⠀⠀⠀
